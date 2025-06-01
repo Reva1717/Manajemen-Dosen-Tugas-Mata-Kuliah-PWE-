@@ -174,6 +174,9 @@
                 <a href="{{ route('dosen.create') }}" class="action-btn">
                     <i class="fas fa-plus"></i> Tambah Dosen
                 </a>
+                <a href="{{ route('dosen.index') }}" class="action-btn" style="background:linear-gradient(45deg, var(--accent-color), var(--primary-color)); color:#fff;">
+                    <i class="fas fa-table"></i> Lihat Tabel Dosen
+                </a>
             </div>
         </div>
     </div>

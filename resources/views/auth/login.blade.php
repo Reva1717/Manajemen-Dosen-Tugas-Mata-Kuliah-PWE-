@@ -192,6 +192,12 @@
                     Masuk <i class="fas fa-arrow-right ms-2"></i>
                 </button>
             </form>
+            <div class="text-center mt-3">
+                <span style="color:#666;">Belum punya akun?</span>
+                <a href="{{ route('register') }}" class="btn btn-outline-primary ms-2" style="border-radius:10px; font-weight:600; border:2px solid #D4AF37; color:#D4AF37; background:transparent; transition:all 0.3s;">
+                    Daftar Akun Baru
+                </a>
+            </div>
         </div>
     </div>
 
