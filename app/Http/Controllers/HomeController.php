@@ -23,6 +23,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $totalDosen = \App\Models\Dosen::count();
+        $totalProdi = \App\Models\Dosen::distinct('prodi')->count('prodi');
+        return view('home', compact('totalDosen', 'totalProdi'));
     }
 }
